@@ -32,7 +32,16 @@
 }
 @media (max-width:450px){
     .container2{
-        padding-right: 0px;;
+        height: 100vh;
+        width: 100vw;
         padding-left: 0px;
+        padding-right: 0px;
+    }
+    #output{
+        padding-left: 1%;
+        padding-right: 1%;
+        text-overflow: none;
+        width: 100vw;
+        /* height: 20%; */
     }
 }
