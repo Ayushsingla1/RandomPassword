@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./1.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="container2">
+            <h2>Random Password Generator</h2>
+           <div class="Num_value">
+            <label for="length">Enter The Length Of Password : </label>
+            <input type="number" id="length" min="1">
+           </div>
+            <div class="Ask">
+                Select the type of password you need : 
+            </div>
+
+            <div> <label for="Upper">UpperCase Characters</label>
+            <input type="checkbox" name="" id="Upper"></div>
+      
+        <div> <label for="Lower">LowerCase Characters</label>
+            <input type="checkbox" name="" id="Lower"></div>
+           
+        <div><label for="Number">Numbers</label>
+            <input type="checkbox" name="" id="Number"></div>
+            
+        <div> <label for="Symbol">Symbols</label>
+            <input type="checkbox" name="" id="Symbol">
+        </div>
+           
+            <button id="submit">Submit</button>
+            <p id="output"></p>
+        </div>
+ 
+    </div>
+    <script src="./1.js"></script>
+</body>
+</html>

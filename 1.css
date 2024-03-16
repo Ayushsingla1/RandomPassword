@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(36, 36, 36);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    background-color: beige;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+ .Num_value{
+    text-align: center;
+    margin-bottom: 2px;
+}
+#length{
+    text-align: center;
+}
